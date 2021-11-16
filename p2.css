@@ -1,0 +1,166 @@
+ *{
+     padding: 0;
+     margin: 0;
+     font-family: "Roboto",sans-serif;
+ }
+ 
+ header{
+    width: 100%;
+    height: 15px;
+    background:rgb(19, 15, 32);
+    padding: 20px 0 30px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    color: #fff;
+}
+header ul li i{
+    color: #fff;
+}
+header span{
+    color: #fff;
+}
+header img{
+    width: 150px;
+    height: 45px;
+    float: left;
+}
+header ul{
+    text-align: center;
+    list-style: none;
+    
+}
+header ul li{
+    float:left;
+    line-height: 35px;
+    padding: 0 35px;
+}
+header ul li a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+nav .banner{
+    width: 980px;
+    height: 170px;
+    background: cornsilk;
+    float: left;
+}
+nav .banner img{
+    width: 980px;
+    height: 170px;
+    float: left;
+}
+nav .dung{
+    width: 980px;
+    height: 100px;
+    background-color: #fff;
+    float: left;
+}
+nav .dung ul li {
+    list-style: none;
+    line-height: 30px;
+}
+nav .dung ul li a{
+    text-decoration: none;
+}
+nav .dov{
+    line-height: 30px;
+}
+  
+  
+ .left{
+    width: 580px;
+    height: 2100px;
+    background: #fff;
+    float: left;
+}
+ .left img{
+    width: 250px;
+    height: 120px;
+   
+}
+.left ul li{
+    list-style: none;
+    position: relative;
+    left: 270px;
+    bottom: 120px;
+}
+
+
+nav .right{
+    width: 400px;
+    height: 1300px;
+    background: #fff;
+    float: left;
+}
+.above{
+    height: 400px;
+}
+.below img{
+    width: 300px;
+    height: 200px;
+}
+nav .right numbertext {
+    color: #f4511e;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  nav .right dot {
+    height: 35px;
+    width: 30px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  nav .right active {
+    background-color: #717171;
+  }
+  
+  nav .right fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+footer{
+   width: 100%;
+   height: 80px;
+   background: rgb(27, 18, 36);
+   float: left;
+   line-height: 25px;
+   text-align: center;
+}footer p{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
